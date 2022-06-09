@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/4.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/navbar-fixed.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/uikit.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>FoodDen</title>
+    <style>
+      html,body{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+      }
+        html{
+            scroll-behavior: smooth;
+            }
+    </style>
+</head>
+<body>
+
+<!--Navbar-->
+  <nav class="navbar bg-dark navbar-dark navbar-expand-lg fixed-top">
+    <div class="container">
+        <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt=""></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#NavBar"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="NavBar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="menu.html">MENU</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="christmasEvent.html">CHRISTMAS EVENT</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservation.html">RESERVATION</a></li>
+          <li class="nav-item"><a class="nav-link" href="location.html">LOCATION</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--Navbar End-->
+
+<!--carousel slide-->
+  <section id="showcase" class="bg-dark">
+    <div class="carousel slide" data-ride="carousel" id="myCarousel">
+      <ol class="carousel-indicators">
+          <li data-slide-to="0" data-target="#myCarousel" class="active"></li>
+          <li data-slide-to="1" data-target="#myCarousel"></li>
+          <li data-slide-to="2" data-target="#myCarousel"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-img-1 active">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/logo.png" alt="" class="" style="height: 170px; width: 270px;">
+                </div>
+                  <div class="col-lg-8 col-md-12">
+                    <h1 class="display-4 text-light mb-0">Food & Drink</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolorum sapiente, quia distinctio magni cum ab nemo nostrum at neque! Minus quae est, deserunt earum.</p>
+                    <a href="menu.html" class="btn btn-outline-warning btn-lg">View Menu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="carousel-item carousel-img-2">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1 class="display-4 text-light mb-0">Something good is always brewing</h1>
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate voluptatum consequuntur, quae consectetur.</p>
+                  <h5><strong class="text-warning">Now serving breakfast from 6:00am - 11:00am daily!</strong></h5>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-img-3">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1 class="display-4 text-light mb-0">Eat. Drink. Relax.</h1>
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate voluptatum consequuntur, quae consectetur.</p>
+                  <a href="christmasEvent.html" class="btn btn-outline-warning btn-lg">View Upcoming Events</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+  </section>
+<!--carousel slide end-->
+
+<section id="head-img">
+  <div class="row">
+      <div class="col-lg-4">
+        <img src="img/9.jpg" alt="">
+      </div>
+      <div class="col-lg-4 mx-auto text-center">
+        <img src="img/4.png" alt="">
+      </div>
+      <div class="col-lg-4">
+        <img src="img/10.jpg" alt="">
+      </div>
+  </div>
+</section>
+
+<!--Image with menu-->
+<section id="img-menu" class="text-center">
+<div class="row no-gutters">
+  <div class="col-lg-6">
+    <div id="img-menu-1">
+      <div class="container">
+        <h1 class="text-light display-3 pt-5">Food Menu</h1>
+        <a href="menu.html" class="btn btn-outline-warning btn-lg">View Food</a>
+      </div>
+    </div>
+    <div id="img-menu-2">
+      <div class="container">
+        <h1 class="text-light display-3 pt-5">About Us</h1>
+        <a href="about.html" class="btn btn-outline-warning btn-lg">View About</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div id="img-menu-3">
+      <div class="container">
+        <h1 class="text-light display-3 pt-5">View Event</h1>
+        <a href="christmasEvent.html" class="btn btn-outline-warning btn-lg">View Events</a>
+      </div>
+    </div>
+    <div id="img-menu-4">
+      <div class="container">
+        <h1 class="text-light display-3 pt-5">Private Events</h1>
+        <a href="reservation.html" class="btn btn-outline-warning btn-lg">Reserve Form</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+<!--Image with menu end-->
+
+<!--contact us button section-->
+  <section id="con-but" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+          <h1 class="text-light mt-2">It's Time To Have Some Delicious Food</h1>
+          <a href="contact.html" class="btn btn-outline-warning btn-lg mt-2">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--contact us button section end-->
+
+<!--Wine and food-img-section-->
+  <section class="py-5" id="wf-img">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="img/15.jpg" alt="" class="rounded">
+        </div>
+        <div class="col-lg-6">
+          <img src="img/14.jpg" alt="" id="mrg-t" class="rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Wine and food-img-section end-->
+
+<!--Wine Section -->
+  <section  id="wine-sec" class="py-5 text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6"></div>
+        <div class="col-lg-6">
+          <h1 class="text-light">WINE LIST</h1>
+          <p class="lead">We are closely connected with all our wine producers.  We go directly to the source and have experienced the joy and love that transforms their grapes into great wine.</p>
+          <p class="lead">We have selected them for their passion and their prodigious talent in creating the best  possible produce from their own particular terroir.</p>
+          <a href="" class="btn btn-outline-warning btn-lg mt-2">View Our Wins</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Wine Section End-->
+
+<!--signUp section-->
+  <section class="bg-secondary py-4" id="sign-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-6">
+          <h1 class="text-light">Join Our 9ja togo Restaurant!</h1>
+          <p class="lead text-light">Lorem ipsum dolor sit amet, consectetur.</p>
+        </div>
+        <div class="col-lg-4 col-6 mx-auto text-center">
+          <img src="img/logo2.png" alt="" class="img-fluid" style="height: 150px; width: 60px;">
+        </div>
+        <div class="col-lg-4 col-md-12 mx-auto text-center">
+          <form action="" class="form-group form-inline mt-5 pt-3">
+            <input type="email" placeholder="Enter Your Email" class="form-control">
+            <a href="" class="btn btn-outline-warning m-2">Sign Up</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--signUp section end-->
+
+<!--Footer Section End-->
+  <section class="bg-dark text-light py-4" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <img src="" alt="">
+          <p class="lead">A wine and food experience.</p>
+          <p class="lead">Open Tuesday - Sunday 12pm until Midnight</p>
+          <a href=""><p class="lead text-warning">info@9jatogo.com</p></a>
+          <p class="lead">276-280 Kensington High Street, London W8 6ND</p>
+          <a href=""><i class="fa fa-facebook text-warning"></i></a>
+          <a href=""><i class="fa fa-instagram text-warning"></i></a>
+          <a href=""><i class="fa fa-twitter text-warning"></i></a>
+          <br><br>
+          <p class="lead">Created By: <a href="" class="text-warning">ParvezRabbi</a></p>
+          <small>Copywrite 2019 &copy; All Rights Reserved</small>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Footer Section End-->
+
+<a href="#showcase" id="top-up"><i class="fa fa-angle-up"></i></a>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+</body>
+</html>
